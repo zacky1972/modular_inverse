@@ -4,12 +4,12 @@ defmodule ModularInverse.MixProject do
   def project do
     [
       app: :modular_inverse,
-      version: "0.1.0",
-      elixir: "~> 1.18",
+      version: "1.0.0",
+      elixir: "~> 1.14",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       name: "Modular inverse",
-      description: "TODO: write a proper description",
+      description: "A fast and efficient Elixir library for calculating modular multiplicative inverses.",
       docs: docs(),
       package: package(),
       aliases: aliases(),
@@ -27,7 +27,7 @@ defmodule ModularInverse.MixProject do
   def docs do
     [
       main: "readme",
-      extras: ["README.md"]
+      extras: ["README.md", "LICENSE.md", "CHANGELOG.md"]
     ]
   end
 
@@ -35,7 +35,7 @@ defmodule ModularInverse.MixProject do
     [
       name: :modular_inverse,
       licenses: ["Apache-2.0"],
-      links: %{"GitHub" => "https://github.com/TODO/modular_inverse"}
+      links: %{"GitHub" => "https://github.com/zacky1972/modular_inverse"}
     ]
   end
 
