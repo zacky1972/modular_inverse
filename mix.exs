@@ -4,12 +4,13 @@ defmodule ModularInverse.MixProject do
   def project do
     [
       app: :modular_inverse,
-      version: "1.0.0",
+      version: "1.0.1",
       elixir: "~> 1.14",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       name: "Modular inverse",
-      description: "A fast and efficient Elixir library for calculating modular multiplicative inverses.",
+      description: 
+        "A fast and efficient Elixir library for calculating modular multiplicative inverses.",
       docs: docs(),
       package: package(),
       aliases: aliases(),
